@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE="docker.io/sankkaly/flask-app"
+        IMAGE="sankkaly/flask-app"
         TAG="${BUILD_NUMBER}"
     }
     stages {
